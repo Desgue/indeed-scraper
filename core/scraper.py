@@ -2,8 +2,7 @@ import requests, re
 from bs4 import BeautifulSoup
 
 headers = {
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) \
-    AppleWebKit/537.36 (KHTML, like Gecko)'}
+            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko)'}
 
 
 def scrape(base_url, searchterm, location=""):
